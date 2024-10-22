@@ -3,7 +3,7 @@ package src;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Random;
-
+// hej med dig virker det her
 public class Main {
 
     // Helper method for waiting for 'y' input with a customizable message
@@ -17,7 +17,7 @@ public class Main {
         var scanner = new java.util.Scanner(System.in);
         scanner.useLocale(java.util.Locale.ENGLISH);
         boolean game_ended = false;
-        Player player1 = new Player();
+        Player player1 = new src.Player();
         System.out.println("Please enter the name of player 1");
         player1.SetName(scanner.nextLine());
         Player player2 = new Player();
